@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: blue;
+}
+
+.important {
+    color: red;
+    font-weight: bold;
+}
+
+#special {
+    color: green;
+    text-decoration: underline;
+}
+
+.conteneur {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.conteneur p {
+    font-style: italic;
+}

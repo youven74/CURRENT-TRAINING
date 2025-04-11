@@ -1,3 +1,48 @@
+/* Style général du bloc */
+.box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+/* Titre principal */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Paragraphe normal */
+p {
+  color: blue;
+}
+
+/* Classe .important */
 .important {
-    color: red;
+  color: red;
+  font-weight: bold;
+}
+
+/* ID #special */
+#special {
+  color: green;
+}
+
+/* Paragraphe à l’intérieur du conteneur */
+#container p {
+  font-style: italic;
+}
+
+/* Classe .important dans le conteneur */
+#container .important {
+  color: red;
+  font-weight: bold;
+}
+
+/* Conteneur */
+#container {
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 6px;
 }
